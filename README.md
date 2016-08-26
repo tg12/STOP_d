@@ -1,6 +1,10 @@
 # STOP_d
 SSH/IPTables Country Blocker
 
+Pre Req's
+
+apt-get install prips
+
 Run as root
 
 
@@ -32,3 +36,5 @@ sudo tee /var/log/kern.log </dev/null
 Once complete, Grep your log files with this simple command
 
 cat /var/log/kern.log | grep STOP_d
+
+..... to see any blocked cyber nastys....
